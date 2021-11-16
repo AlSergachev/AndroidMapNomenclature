@@ -6,9 +6,46 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:fullBackupOnly="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MapNomenclature">
+        <activity
+            android:name=".ResultActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ResultActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityInfo"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ActivityInfo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityHint"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ActivityHint" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WorkingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.WorkingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

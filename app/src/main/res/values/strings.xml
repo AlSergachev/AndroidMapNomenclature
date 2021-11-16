@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">MapNomenclature</string>
+    <string name="start">Узнать номенклатуру</string>
+    <string name="hint">Помощь</string>
+    <string name="info">О программе</string>
+    <string name="back">В главное меню</string>
+    <string name="TODO">TODO</string>
+    <string name="input">Введите координаты</string>
+    <string name="latitude">Широта (B):</string>
+    <string name="longitude">Долгота (L):</string>
+    <string name="deg">°</string>
+    <string name="min">\'</string>
+    <string name="sec">\"</string>
+    <string name="g52">52</string>
+    <string name="m44">44</string>
+    <string name="s03">03.745</string>
+    <string name="calculation">Расчёт</string>
+    <string name="version">Версия 1.0</string>
+    <string name="north">North</string>
+    <string name="south">South</string>
+    <string name="west">West</string>
+    <string name="east">East</string>
+    <string name="nomenclature">Nmncltr</string>
+    <string name="Source_coordinates">Исходные координаты</string>
+    <string name="BordersOfTheFrame">Границы рамки карты</string>
+    <string name="scale">Масштаб</string>
+
+    <string name="description">
+       <big><u>MapNomenclature</u></big> \n\n <smal>- это программа, которая
+        предназначена для определения номенклатуры карт различных масштабов
+        и границ их рамок. Работа программы ограничивается указаными границами.</smal>
+    </string>
+
+    <string-array name="scale">
+        <item>1 : 1 000 000</item>
+        <item>1 : 100 000</item>
+        <item>1 : 50 000</item>
+        <item>1 : 25 000</item>
+        <item>1 : 10 000</item>
+        <item>1 : 5 000</item>
+        <item>1 : 2 000</item>
+    </string-array>
 </resources>
+

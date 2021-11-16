@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".WorkingActivity">
+
+    <TextView
+        android:id="@+id/tv_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:text="@string/input"
+        android:layout_marginVertical="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:text="@string/latitude"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/first_deg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="52"
+            android:ems="2"
+            android:hint="@string/g52"
+            android:text="@string/g52"
+            android:inputType="numberSigned"
+            android:maxLength="3"
+            android:textAlignment="textEnd"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintTextColor"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/deg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deg"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/first_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="44"
+            android:ems="2"
+            android:hint="@string/m44"
+            android:text="@string/m44"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintTextColor"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/first_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="03.745"
+            android:ems="4"
+            android:hint="@string/s03"
+            android:text="@string/s03"
+            android:inputType="numberDecimal"
+            android:maxLength="7"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintTextColor"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sec"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15sp"
+        android:text="@string/longitude"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/second_deg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="52"
+            android:ems="2"
+            android:hint="@string/g52"
+            android:text="@string/g52"
+            android:inputType="numberSigned"
+            android:maxLength="3"
+            android:textColorHint="@color/hintTextColor"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/deg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deg"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/second_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="44"
+            android:ems="2"
+            android:hint="@string/m44"
+            android:text="@string/m44"
+            android:inputType="numberSigned"
+            android:maxLength="2"
+            android:textColorHint="@color/hintTextColor"
+            android:textColor="@color/textColor"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/min2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/second_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints="03.745"
+            android:ems="4"
+            android:hint="@string/s03"
+            android:text="@string/s03"
+            android:textColorHint="@color/hintTextColor"
+            android:textColor="@color/textColor"
+            android:inputType="numberDecimal"
+            android:maxLength="7"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/sec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sec"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="20dp"
+        android:background="@color/dark_background"
+        android:entries="@array/scale"
+        android:spinnerMode="dialog"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_calculation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/calculation" />
+
+    <ImageView
+        android:id="@+id/limitation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        app:srcCompat="@drawable/limitation"
+        android:contentDescription="@string/TODO" />
+
+</LinearLayout>
