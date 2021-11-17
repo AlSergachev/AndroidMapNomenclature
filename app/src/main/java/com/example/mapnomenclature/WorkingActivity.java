@@ -72,8 +72,8 @@ public class WorkingActivity extends AppCompatActivity implements View.OnClickLi
 
     public boolean checkCoordinates()
     {
-        return (x_deg >= 32 && x_deg < 80) && (x_min < 60) && (!(x_sec >= 60))
-                && (y_deg >= 0 && y_deg < 180) && (y_min < 60) && (!(y_sec >= 60));
+        return (x_deg >= 32 && x_deg < 80) && (x_min < 60) && (x_sec < 60)
+                && (y_deg >= 0 && y_deg < 180) && (y_min < 60) && (y_sec < 60);
     }
 
     public void transformationOfCoordinates()
